@@ -1,14 +1,10 @@
-import React from 'react'
-import Navbar from './Components/Navbar/Navbar'
+import Root2 from './Components/Root2'
 import './App.css'
 
 function App() {
-  // const [count, setCount] = useState(0)
 
   return (
-    <React.Fragment>
-      <Navbar />
-    </React.Fragment>
+   <Root2/>
   )
 }
 

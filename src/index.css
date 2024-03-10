@@ -1,22 +1,51 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  font-family: 'Gilroy-Regular', sans-s;
   font-weight: 400;
-
+  min-height: 100vh;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-image: url(./assets/Images/space.jpg);
   background-size: cover;
-  /* filter: blur(1px); Added blur effect */
-
-  
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 body{
   margin: 0;
   padding: 0;
 }
+@font-face {
+  font-family: 'Gilroy-Black';
+  src: url("./assets/Fonts/Gilroy-Black.ttf");
+}
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url("./assets/Fonts/Gilroy-Bold.ttf");
+}
+@font-face {
+  font-family: 'Gilroy-ExtraBold';
+  src: url("./assets/Fonts/Gilroy-ExtraBold.ttf");
+}
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: url("./assets/Fonts/Gilroy-Light.ttf");
+}
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url("./assets/Fonts/Gilroy-Medium.ttf");
+}
+@font-face {
+  font-family: 'Gilroy-Regular';
+  src: url("./assets/Fonts/Gilroy-Regular.ttf");
+}
+@font-face {
+  font-family: 'Gilroy-SemiBold';
+  src: url("./assets/Fonts/Gilroy-SemiBold.ttf");
+}
+@font-face {
+  font-family: 'Gilroy-Thin';
+  src: url("./assets/Fonts/Gilroy-Thin.ttf");
+}
+@font-face {
+  font-family: 'Gilroy-Heavy';
+  src: url("./assets/Fonts/Gilroy-Heavy.ttf");
+}
+
 
