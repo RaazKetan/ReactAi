@@ -1,10 +1,17 @@
-import Root2 from './Components/Root2'
+import React from "react";
+import Navbar from "./Components/Navbar/Navbar";
+import HeroSection from "./Components/HeroSection/HeroSection";
+import CaseStudies from "./Components/CaseStudies/CaseStudies";
 import './App.css'
 
 function App() {
 
   return (
-   <Root2/>
+    <React.Fragment>
+        <Navbar />
+        <HeroSection />
+        <CaseStudies />
+        </React.Fragment>
   )
 }
 

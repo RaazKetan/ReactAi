@@ -1,8 +1,8 @@
  .main-section {
   font-family: 'Gilroy-Thin', sans-serif;
-  margin-top: 8em;
+  margin-top: 4em;
   text-align: center;
-  width: 80%; /* Adjust the width as needed *//* Ensure it doesn't get too wide on large screens */
+  width: 100%; /* Adjust the width as needed *//* Ensure it doesn't get too wide on large screens */
  }
  
  .main-section h1 {

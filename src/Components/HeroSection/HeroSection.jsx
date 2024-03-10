@@ -1,7 +1,7 @@
-import classes from './MainSection.module.css';
+import classes from './HeroSection.module.css';
 
 
-const MainSection = () => {
+const HeroSection = () => {
     return (
         <section className={classes["main-section"]}>
           <h1>Combining  
@@ -12,4 +12,4 @@ const MainSection = () => {
         </section>
       );
 }
-export default MainSection;
+export default HeroSection;

@@ -1,0 +1,23 @@
+
+.cases{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    padding: 1em;
+    /* background-color: red; */
+}
+.case-study{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 1em; */
+    /* margin: 1em; */
+    background-color: blue;
+}
+.case-study .studies{
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+    padding: 1em;
+    margin: 1em;
+    background-color: red;
+}
