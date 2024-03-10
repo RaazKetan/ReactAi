@@ -12,6 +12,10 @@ body{
   padding: 0;
 }
 @font-face {
+  font-family: 'Gilroy-UltraLight';
+  src: url("./assets/Fonts/Gilroy-UltraLight.ttf");
+}
+@font-face {
   font-family: 'Gilroy-Black';
   src: url("./assets/Fonts/Gilroy-Black.ttf");
 }

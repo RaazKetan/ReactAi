@@ -7,21 +7,21 @@
  
  .main-section h1 {
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
  }
  .main-section h1 span{
   font-family: 'Gilroy', sans-serif;
   color: #0096C7;
  }
  .main-section p {
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   /* line-height: 0.; */
  }
  
 .get-started-btn{
   font-family: 'Gilroy-Thin', sans-serif;
   font-size: 1em;
-  padding: 1em;
+  padding: 0.8em;
   border: none;
   border-radius: 50px;
  background-color: #0096C7;
