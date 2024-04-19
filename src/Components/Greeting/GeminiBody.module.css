@@ -1,0 +1,150 @@
+.head{
+    display: flex;
+    height: 100vh;
+    position: relative; 
+padding-bottom: 15vh;
+}
+.headExtended{
+    display: flex; 
+    padding: 1.25rem; 
+    justify-content: space-between; 
+    align-items: center; 
+    font-size: 1.25rem;
+    line-height: 1.75rem; 
+    color: #9CA3AF;     
+}
+.display{
+    max-width: 900px;
+    margin: auto;
+}
+.display_extended{
+    padding: 1.25rem; 
+margin-top: 3rem;
+margin-bottom: 3rem; 
+font-size: 3rem;
+line-height: 1; 
+font-weight: 500; 
+}
+.display_head{
+    padding: 1.25rem; 
+margin-top: 1rem;
+margin-bottom: 1rem; 
+font-size: 3rem;
+line-height: 1; 
+font-weight: 500; 
+}
+.display_span{
+    font-weight: 700; 
+color: transparent; 
+background-clip: text; 
+ background-image:linear-gradient(to right, var(--tw-gradient-stops)); 
+background-color: #A78BFA; 
+background-color: #F472B6; 
+}
+.suggest{
+    display: grid; 
+/* padding: 1.25rem;  */
+grid-template-columns: repeat(4, minmax(0, 1fr)); 
+gap: 1.25rem; 
+}
+.suggestExtended{
+    position: relative; 
+    padding: 1rem; 
+    border-radius: 0.75rem; 
+    height: 12rem; 
+    cursor: pointer; 
+}   
+.compass, .lightbulb{
+    position: relative; 
+    padding: 1rem; 
+    border-radius: 0.75rem; 
+    height: 2rem; 
+    cursor: pointer; 
+} 
+.vehicle{
+    position: relative; 
+padding: 1rem; 
+border-radius: 0.75rem; 
+height: 12rem; 
+cursor: pointer; 
+}
+.recipe{
+    position: relative; 
+padding: 1rem; 
+border-radius: 0.75rem; 
+height: 12rem; 
+cursor: pointer; 
+}
+.youtube{
+    position: relative; 
+padding: 1rem; 
+border-radius: 0.75rem; 
+height: 2rem; 
+cursor: pointer;     
+}
+.code{
+    position: relative; 
+padding: 1rem; 
+border-radius: 0.75rem; 
+height: 12rem; 
+cursor: pointer; 
+}
+.code_icon{
+    position: relative; 
+padding: 1rem; 
+border-radius: 0.75rem; 
+height: 2rem; 
+cursor: pointer; 
+}
+.resultext{
+    display: flex; 
+margin-top: 2.5rem;
+margin-bottom: 2.5rem; 
+gap: 1.25rem; 
+align-items: center; 
+}
+.gemini{
+    display: flex; 
+gap: 1.25rem; 
+align-items: flex-start; 
+}
+.geminiresult{
+    font-weight: 400; 
+    color: #9CA3AF;       
+}
+.fromextended{
+    position: absolute; 
+bottom: 0; 
+padding-left: 1.25rem;
+padding-right: 1.25rem; 
+width: 100%; 
+max-width: 900px;
+}
+.innerform{
+    display: flex; 
+padding-top: 0.625rem;
+padding-bottom: 0.625rem; 
+padding-left: 1.25rem;
+padding-right: 1.25rem; 
+gap: 1.25rem; 
+justify-content: space-between; 
+align-items: center; 
+border-radius: 9999px; 
+}
+.inputPrompt{
+    padding: 0.5rem; 
+border-style: none; 
+outline-style: none; 
+background-color: transparent; 
+}
+.inputSend{
+    display: flex; 
+cursor: pointer; 
+}
+.warningText{
+    padding: 0.75rem; 
+font-size: 0.875rem;
+line-height: 1.25rem; 
+text-align: center; 
+color: #9CA3AF; 
+}

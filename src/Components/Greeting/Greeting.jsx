@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import Sidebar from './Sidebar';
+import GeminiBody from './GeminiBody';
 
 const Greeting = () => {
   const [searchParams] = useSearchParams();
@@ -14,10 +15,9 @@ const Greeting = () => {
   }, [name, navigate]);
 
   return (
-    <div>
+    <div style={{display:'flex'}}>
     <Sidebar/>
-      Hii {name}! Welcome to React AI.
-      {/* Add any additional content for this page */}
+    <GeminiBody/>
     </div>
   );
 };

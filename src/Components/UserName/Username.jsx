@@ -17,7 +17,7 @@ function Username() {
 
   return (
     <div className={styles.udiv}>
-      <h1 className>
+      <h1>
         Hey Dev, <br /> Please Enter Your Name
       </h1>
       <form onSubmit={submitHandler}>
